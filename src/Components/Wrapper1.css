@@ -1,0 +1,17 @@
+.first {
+  @apply h-[fit] w-[100%] bg-[#131415] px-[1rem] py-[5rem];
+}
+/* .text{
+    @apply bg-[linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0)]
+} */
+.text {
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  animation: animate 1.5s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes animate {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
