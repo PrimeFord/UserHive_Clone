@@ -6,7 +6,7 @@ const Wrapper2 = () => {
   return (
     <div className="second">
       <section>
-        <h1 className="w-fit text-[4rem] font-bold mx-[auto]">
+        <h1 className="w-fit font-bold mx-[auto] text-[2.25rem] lg:text-[4rem]">
           Let's get<span className="text"> moving</span>
         </h1>
       </section>

@@ -30,7 +30,7 @@ const Map2 = () => {
     },
   ];
   return (
-    <div className="mt-[4rem] p-6 flex gap-8 bg-[#131415]">
+    <div className="mt-[4rem] p-6 flex flex-col lg:flex gap-4 lg:gap-8 bg-[#131415]">
       {arr2.map((arr, i) => (
         <Map2Structure
           key={i}

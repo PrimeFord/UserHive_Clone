@@ -25,7 +25,7 @@ const Map1 = () => {
     },
   ];
   return (
-    <div className="mt-[2rem] flex gap-8">
+    <div className="mt-[2rem] flex flex-col lg:flex gap-4 lg:gap-8">
       {arr1.map((arr, i) => (
         <Map1Structure
           key={i}
